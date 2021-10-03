@@ -12,5 +12,10 @@ public class Main {
 
         System.out.println(Arrays.toString(linkedList.getNodes()));
         System.out.println(linkedList.isContain(10));
+        linkedList.removeFirst();
+        System.out.println(Arrays.toString(linkedList.getNodes()));
+        linkedList.removeFirst();
+        System.out.println(Arrays.toString(linkedList.getNodes()));
+
     }
 }

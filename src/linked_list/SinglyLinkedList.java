@@ -41,6 +41,8 @@ public class SinglyLinkedList {
     }
 
     public void removeFirst() {
-
+        if (firstNode == null)
+            return;
+        firstNode = firstNode.getNextNode();
     }
 }
